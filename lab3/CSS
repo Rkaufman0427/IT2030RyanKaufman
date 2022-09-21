@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+
+namespace FutureValue.Models
+{
+    public class FutureValueModel
+    {
+        [Required(ErrorMessage = "Please enter a subtotal.")]
+        [Range(1, 500, ErrorMessage = "Monthly investment should be between 1 and 500.")]
+        public decimal? SubTotal { get; set; }
+
+        [Required(ErrorMessage = "Please enter a tax percent .")]
+        [Range(0.1, 10.0, ErrorMessage = "Yearly interest rate should be between 0.1 and 10.0.")]
+        public decimal? TaxPercent { get; set; }
+
+        [Required(ErrorMessage = "Please enter a tax amount.")]
+        [Range(1, 50, ErrorMessage = "Number of years be between 1 and 50.")]
+        public decimal? TaxAmount { get; set; }
+        public decimal? CalculateFutureValue()
+        {
+            decimal? futureValue = 0;
+            {
+                futureValue = (futureValue + subtotal * TaxPercent);
+            }
+            return futureValue;
+        }
+    }
+}
