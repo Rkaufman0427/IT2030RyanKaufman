@@ -5,25 +5,76 @@
 
 
 <h1>Kaufman's Sporting Goods</h1>
-<form asp-action="Index" method="post">
-    <div asp-validation-summary="All"></div>
-    <div>
-        <label asp-for="Subtotal">Subtotal:</label>
-        <input asp-for="Subtotal" />
+<form asp-action="Login" method="post" class=""form-horizontal">
+<div asp-validation-summary="All"></div>
+
+<div class="row">
+        <label for="Subtotal" class="control-label col-sm-2">Subtotal:</label>
+        <input type="text" id="Subtotal" class="form-control col-sm-10" />
+</div>
+<div class="row">
+    <label for="Subtotal" class="control-label col-md-4">Subtotal:</label>
+        <input type="text" id="Subtotal" class="form-control col-md-12" />
+</div>
+<div class="row">
+    <label for="Subtotal" class="control-label col-lg-6">Subtotal:</label>
+        <input type="text" id="Subtotal" class="form-control col-lg-14" />
+</div>
+    <div class="row">
+        <label for="TaxPercent" class="control-label col-sm-2">TaxPercent:</label>
+        <input type="text" id="Tax Percent:" class="form-control col-sm-10" />
     </div>
-    <div>
-        <label asp-for="TaxPercent">Tax Percent:</label>
-        <input asp-for="TaxPercent" />
+    <div class="row">
+        <label for="TaxPercent" class="control-label col-md-4">TaxPercent</label>
+        <input type="text" id="Subtotal" class="form-control col-md-12" />
     </div>
-    <div>
-        <label>Tax Amount:</label>
-        <input value="@ViewBag.TA.ToString("C2")" readonly>
+    <div class="row">
+        <label for="TaxPercent" class="control-label col-lg-6">TaxPercent:</label>
+        <input type="text" id="Subtotal" class="form-control col-lg-14" />
     </div>
-        <div>
-        <label>Total:</label>
-        <input value="@ViewBag.T.ToString("C2")" readonly>
+    <div class="row">
+        <label for="TaxAmount" class="control-label col-sm-2">TaxAmount:</label>
+        <input type="text" id="Tax Amount:" class="form-control col-sm-10" />
+    </div>
+    <div class="row">
+        <label for="TaxAmount" class="control-label col-md-4">TaxAmount</label>
+        <input type="text" id="Tax Amount" class="form-control col-md-12" />
+    </div>
+    <div class="row">
+        <label for="TaxAmount" class="control-label col-lg-6">TaxAmount:</label>
+        <input type="text" id="Tax Amount" class="form-control col-lg-14" />
+    </div>
+    <div class="row">
+        <label for="Total" class="control-label col-sm-2">Total:</label>
+        <input type="text" id="Total:" class="form-control col-sm-10" />
+    </div>
+    <div class="row">
+        <label for="Total" class="control-label col-md-4">Total</label>
+        <input type="text" id="Total" class="form-control col-md-12" />
+    </div>
+    <div class="row">
+        <label for="Total" class="control-label col-lg-6">Total:</label>
+        <input type="text" id="Total" class="form-control col-lg-14" />
     </div>
 
     <button type="submit">Calculate</button>
     <a asp-action="Index">Clear</a>
+</form>
+<form asp-action="Login" method="post">
+    <div class="form-group">
+        <label for="subtotal" class="control-label" >Subtotal: </label>
+        <input type="text" id="Subtotal:" class+"form-control"/>
+        </div>
+    <div class="form-group">
+        <label for="TaxPercent" class="control-label">TaxPercent: </label>
+        <input type="text" id="TaxPercent:" class+"form-control" />
+    </div>
+    <div class="form-group">
+        <label for="TaxAmount" class="control-label">TaxAmount: </label>
+        <input type="text" id="Tax Amount:" class+"form-control" />
+    </div>
+    <div class="form-group">
+        <label for="Total" class="control-label">Total: </label>
+        <input type="text" id="Total:" class+"form-control" />
+    </div>
 </form>
