@@ -15,12 +15,40 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\wahoo\source\repos\IT2030\Week5Lab\Week_3_Lab\Week_3_Lab
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/wahoo/source/repos/IT2030/Week5Lab/Week_3_Lab/Week_3_Lab/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wahoo/source/repos/IT2030/Week5Lab/Week_3_Lab/Week_3_Lab/Views/Home/Contacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/wahoo/source/repos/IT2030/Week5Lab/Week_3_Lab/Week_3_Lab/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/wahoo/source/repos/IT2030/Week5Lab/Week_3_Lab/Week_3_Lab/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wahoo/source/repos/IT2030/Week5Lab/Week_3_Lab/Week_3_Lab/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wahoo/source/repos/IT2030/Week5Lab/Week_3_Lab/Week_3_Lab/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wahoo/source/repos/IT2030/Week5Lab/Week_3_Lab/Week_3_Lab/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wahoo/source/repos/IT2030/Week5Lab/Week_3_Lab/Week_3_Lab/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wahoo/source/repos/IT2030/Week5Lab/Week_3_Lab/Week_3_Lab/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/wahoo/source/repos/IT2030/Week5Lab/Week_3_Lab/Week_3_Lab/Views/Shared/Error.cshtml]

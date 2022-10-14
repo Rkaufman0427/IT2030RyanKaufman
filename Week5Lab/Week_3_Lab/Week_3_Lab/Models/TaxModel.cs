@@ -9,10 +9,16 @@ namespace Week_3_Lab.Models
     public class TaxModel
     {
         [Required(ErrorMessage = "Please enter a Subtotal.")]
+        [Range(0, 9999999, ErrorMessage = "Enter a value between 0 and 9999999.")]
         public double? Subtotal { get; set; }
 
-        [Required(ErrorMessage = "Please enter a tax percent.")]
+        [Required(ErrorMessage = "Please enter a Tax Percent.")]
+        [Range(0, 100, ErrorMessage = "Enter a value between 0 and 100.")]
         public double? TaxPercent { get; set; }
+
+        public double? TaxAmount { get; set; }
+        public double? Total { get; set; }
+
 
         public double? CalculateTaxAmount()
         {

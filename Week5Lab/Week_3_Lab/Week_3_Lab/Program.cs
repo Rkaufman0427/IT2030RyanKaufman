@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Week_3_Lab.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<Week_3_LabContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Week_3_LabContext") ?? throw new InvalidOperationException("Connection string 'Week_3_LabContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

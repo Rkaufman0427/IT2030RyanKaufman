@@ -13,6 +13,22 @@ namespace Week_3_Lab.Controllers
             ViewBag.T = 0;
             return View();
         }
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult AboutUs()
+        {
+            return View();
+        }
+        public IActionResult Contacts()
+        {
+            return View();
+        }
+
+
+
 
         [HttpPost]
         public IActionResult Index(TaxModel model)
