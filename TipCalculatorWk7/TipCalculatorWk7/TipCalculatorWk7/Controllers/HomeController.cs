@@ -18,8 +18,8 @@ namespace TipCalculatorWk7.Controllers
       {
          ViewBag.Fifteen = 0;
          ViewBag.Twenty = 0;
-         Viewbag.TwentyFive = 0;  
-         View();                  
+         ViewBag.TwentyFive = 0;    // Viewbag instead of ViewBag
+         return View();             // Missing return         
 
       }
 

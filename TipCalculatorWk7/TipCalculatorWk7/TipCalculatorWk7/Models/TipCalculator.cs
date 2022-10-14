@@ -12,8 +12,8 @@ namespace TipCalculatorWk7.Models
       {
          if (MealCost.HasValue)
          {
-            var tip = MealCost.Value / percent; 
-            return tip                          
+            var tip = MealCost.Value * percent; // changed / to *
+                return tip; // Had a missing ";"                          
          }
          else
          {
