@@ -9,7 +9,7 @@ namespace Week_3_Lab.Data
 {
     public class Week_3_LabContext : DbContext
     {
-        public Week_3_LabContext (DbContextOptions<Week_3_LabContext> options)
+        public Week_3_LabContext(DbContextOptions<Week_3_LabContext> options)
             : base(options)
         {
         }
