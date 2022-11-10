@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r+v1KSifzwgTD9E+1c5NvxQuAZs46pkuRKhjTfqdpy267wDGG4h6tNzqVN1OGd1GSVtoX4Sbor+6Sg9inh0pvg==",
+  "dgSpecHash": "mRHQ/rodla3hTZOTpRCQQ5vXK1LBnJK3KaBZPsNKLBVUr8W988OpEbAHV/NcAN4w8jv6q9EIu7bcHLjjpxAiXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wahoo\\source\\repos\\IT2030\\Week_7_Lab\\Week_3_Lab\\Week_3_Lab\\Week_3_Lab.csproj",
+  "projectFilePath": "C:\\Users\\wahoo\\source\\repos\\IT2030\\Week_9_Lab\\Week_3_Lab\\Week_3_Lab\\Week_3_Lab.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wahoo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\wahoo\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

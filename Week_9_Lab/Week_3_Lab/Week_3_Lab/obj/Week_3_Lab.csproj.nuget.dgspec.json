@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wahoo\\source\\repos\\IT2030\\Week_7_Lab\\Week_3_Lab\\Week_3_Lab\\Week_3_Lab.csproj": {}
+    "C:\\Users\\wahoo\\source\\repos\\IT2030\\Week_9_Lab\\Week_3_Lab\\Week_3_Lab\\Week_3_Lab.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wahoo\\source\\repos\\IT2030\\Week_7_Lab\\Week_3_Lab\\Week_3_Lab\\Week_3_Lab.csproj": {
+    "C:\\Users\\wahoo\\source\\repos\\IT2030\\Week_9_Lab\\Week_3_Lab\\Week_3_Lab\\Week_3_Lab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wahoo\\source\\repos\\IT2030\\Week_7_Lab\\Week_3_Lab\\Week_3_Lab\\Week_3_Lab.csproj",
+        "projectUniqueName": "C:\\Users\\wahoo\\source\\repos\\IT2030\\Week_9_Lab\\Week_3_Lab\\Week_3_Lab\\Week_3_Lab.csproj",
         "projectName": "Week_3_Lab",
-        "projectPath": "C:\\Users\\wahoo\\source\\repos\\IT2030\\Week_7_Lab\\Week_3_Lab\\Week_3_Lab\\Week_3_Lab.csproj",
+        "projectPath": "C:\\Users\\wahoo\\source\\repos\\IT2030\\Week_9_Lab\\Week_3_Lab\\Week_3_Lab\\Week_3_Lab.csproj",
         "packagesPath": "C:\\Users\\wahoo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wahoo\\source\\repos\\IT2030\\Week_7_Lab\\Week_3_Lab\\Week_3_Lab\\obj\\",
+        "outputPath": "C:\\Users\\wahoo\\source\\repos\\IT2030\\Week_9_Lab\\Week_3_Lab\\Week_3_Lab\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wahoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
