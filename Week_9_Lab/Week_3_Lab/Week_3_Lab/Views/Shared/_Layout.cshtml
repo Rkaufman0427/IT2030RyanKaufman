@@ -11,6 +11,9 @@
 </head>
 <body>
     <header>
+        <div class="bg-secondary">
+
+        </div>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Week 5 Lab</a>
@@ -32,16 +35,20 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contacts">Contacts</a>
                         </li>
-
-
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="FAQ">FAQ</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+    <div class="bg-primary">
+        <h1 class="p-3 ms-5 text-white">Kaufman's Sporting Goods</h1>
+    </div>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

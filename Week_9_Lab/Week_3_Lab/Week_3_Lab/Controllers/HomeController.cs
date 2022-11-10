@@ -27,6 +27,12 @@ namespace Week_3_Lab.Controllers
             return View();
         }
 
+        public IActionResult FAQ()
+        {
+            return View();
+        }
+
+
 
 
 
