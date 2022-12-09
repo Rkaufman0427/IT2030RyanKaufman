@@ -1,4 +1,6 @@
 ﻿@model TaxModel
+@using Microsoft.AspNetCore.Http
+
 @{
     ViewBag.Title = "Kaufman's Sporting Goods";
 }
@@ -14,46 +16,3 @@
     </p>
 
 </div>
-<form asp-action="Index" method="post" class="form-horizontal">
-    <div class="row">
-        <main>
-            <form asp-action="Index" method="post">
-                <div class="row form-group p-1">
-                    <label asp-for="Subtotal" class="col-sm-3">Subtotal: </label>
-                    <div class="col-sm-3 p-1">
-                        <input asp-for="Subtotal" class="form-control" />
-                    </div>
-                    <span asp-validation-for="Subtotal" class="col text-danger"></span>
-                </div>
-                <div class="row form-group p-1">
-                    <label asp-for="TaxPercent" class="col-sm-3">TaxPercent: </label>
-                    <div class="col-sm-3 p-1">
-                        <input asp-for="TaxPercent" class="form-control" />
-                    </div>
-                    <span asp-validation-for="TaxPercent" class="col text-danger"></span>
-                </div>
-                <div class="row form-group p-1">
-                    <label asp-for="TaxAmount" class="col-sm-3"> Tax Amount: </label>
-                    <div class="col-sm-3 p-1">
-                        <input class="form-control" value="@ViewBag.TA.ToString("C2")" readonly>
-                    </div>
-                    <span asp-validation-for="TaxAmount" class="col text-danger"></span>
-                </div>
-                <div class="row form-group p-1">
-                    <label asp-for="Total" class="col-sm-3"> Total: </label>
-                    <div class="col-sm-3 p-1">
-                        <input class="form-control" value="@ViewBag.T.ToString("C2")" readonly>
-                    </div>
-                    <span asp-validation-for="Total" class="col text-danger"></span>
-                </div>
-                <div class="row form-group p-1">
-                     <div class="col offset-sm-3">
-                        <button type="submit" class="btn btn-secondary">Calculate</button>
-                        <a asp-action="Index" class="btn btn-secondary">Clear</a>
-                     </div>
-                </div>
-            </form>
-        </main>
-    </div>
-
-</form>

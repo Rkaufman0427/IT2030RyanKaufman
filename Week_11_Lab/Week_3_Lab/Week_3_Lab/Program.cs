@@ -6,6 +6,16 @@ builder.Services.AddDbContext<Week_3_LabContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Week_3_LabContext") ?? throw new InvalidOperationException("Connection string 'Week_3_LabContext' not found.")));
 
 // Add services to the container.
+builder.Services.AddMemoryCache(); // session state
+builder.Services.AddSession();
+
+//builder.Services.AddSession(options =>
+//{
+//    options.IdleTimeout = TimeSpan.FromSeconds(60*5);
+//    options.Cookie.HttpOnly = false;
+//    options.Cookie.IsEssential = true;
+//});
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -25,8 +35,11 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.UseSession(); // using session
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
