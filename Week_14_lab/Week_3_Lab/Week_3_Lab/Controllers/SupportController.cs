@@ -10,6 +10,7 @@ namespace Week_3_Lab.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult Support(Customer customer)
         {

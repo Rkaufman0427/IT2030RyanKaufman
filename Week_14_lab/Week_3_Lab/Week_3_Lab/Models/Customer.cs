@@ -4,7 +4,7 @@ namespace Week_3_Lab.Models
 {
     public class Customer
     {
-        [Required(ErrorMessage ="Please enter a first name")]
+        [Required(ErrorMessage = "Please enter a first name")]
         [StringLength(10, ErrorMessage = "First Name must be 10 characters or less.")]
         [RegularExpression("^[a-zA-Z]+$",
             ErrorMessage = "First Name may not contain numbers or special characters.")]
