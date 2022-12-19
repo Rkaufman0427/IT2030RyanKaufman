@@ -2,6 +2,10 @@ html {
   font-size: 14px;
 }
 
+html body {
+    background-color: rgb(44, 114, 114, 0.75);
+}
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;

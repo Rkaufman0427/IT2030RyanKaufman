@@ -7,11 +7,11 @@
 
 @*@*<h1 class="">Kaufman's Sporting Goods</h1>
 *@
-<div class="p-1">
+<div class="p-1 text-center">
     <div class="p-1">
         Session state values:
     </div>
-    <ul class ="list-group list-group-horizontal">
+    <ul class="list-group list-group-horizontal justify-content-center">
         <li class="list-group-item">Course: @Context.Session.GetString("Course")</li>
         <li class="list-group-item">Student ID: @Context.Session.GetString("StudentID")</li>
         <li class="list-group-item">Date(YYYYMMDD): @Context.Session.GetInt32("CurrentDate")</li>
@@ -19,8 +19,8 @@
 </div>
 
 </div>
-<div class="p-5">
-<form asp-action="Tools" method="post" class="form-horizontal">
+<div class="p-5 justify-content-center">
+    <form asp-action="Tools" method="post" class="form-horizontal justify-content-center">
     <div class="row pl-5">
         <main>
             <form asp-action="Tools" method="post">
